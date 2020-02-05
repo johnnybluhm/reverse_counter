@@ -1,4 +1,13 @@
 import math
+import random
+
+test_arr = []
+
+#fills arrayb with random numbers 0-99
+for i in range(0,100):
+    test_arr.append(int(random.random()*100))
+
+print(test_arr)
 
 def countReverses(user_array):
     reverse_count = 0 
@@ -33,9 +42,7 @@ def countReverses(user_array):
     return reverse_count
 
 
-test = [3,2,1]
 
-print(countReverses(test))
 
 
 
